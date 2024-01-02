@@ -8,6 +8,10 @@ class MyFilter:
         self.negative = "OK"
         self.flag_words = {}
 
+
+
+        
+
     # здесь фильтр тренируется
     def train(self, corpus_path):
         corpus = Corpus(corpus_path)
